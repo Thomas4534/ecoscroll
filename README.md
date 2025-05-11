@@ -54,6 +54,5 @@ Social media consumes billions of hours daily — **Eco Scroll transforms this a
 ### Demo Mode (No API Key Required)
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/eco-scroll.git
-   cd eco-scroll
+
+- An API key is needed to run the project right now as well as having a few passwords.
