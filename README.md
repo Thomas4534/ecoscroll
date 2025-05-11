@@ -55,4 +55,4 @@ Social media consumes billions of hours daily — **Eco Scroll transforms this a
 
 1. Clone the repository:
 
-- An API key is needed to run the project right now as well as having a few passwords.
+- Running on local machines is not yet available as the source code uses an API key.
