@@ -21,7 +21,6 @@ Social media consumes billions of hours daily — **Eco Scroll transforms this a
 ### 📲 Seamless UX
 - 🔄 **Infinite Scrolling Feed**: Social media-style interface mimics popular apps for a familiar, intuitive user experience.
 - 🖼️ **Rich Content Support**: Scroll includes multimedia content (images, short captions, interactive banners).
-- 💬 **Mock Social Reactions**: Like, share, and comment features in demo simulate real-world interaction flow.
 
 ### 🧪 Developer-Friendly Demo Mode
 - 🧰 **Zero Configuration**: Download and run locally without API keys or server setup.
@@ -46,8 +45,7 @@ Social media consumes billions of hours daily — **Eco Scroll transforms this a
   - Java (data processing & optional scoring engine)
 
 - **Assets**:
-  - Static demo content in `/assets/`  
-  - Placeholder ads and image slides
+  - Placeholder image slides
 
 ---
 
