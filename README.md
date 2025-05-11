@@ -26,7 +26,6 @@ Built with **Python**, **Java**, **HTML**, and **CSS**, the app is currently in 
 
 ## 🛠 Setup
 
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/yourusername/ecoscroll.git
-   cd ecoscroll
+![Demo Screenshot](assets/image1.png)
+![Demo Screenshot](assets/image2.png)
+![Demo Screenshot](assets/image3.png)
