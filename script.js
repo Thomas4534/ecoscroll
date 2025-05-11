@@ -1,18 +1,19 @@
-
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-analytics.js";
 import { getDatabase, ref, set, get, update } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-database.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDSdUWop0tbW3gypOoW7cAUSmmyKsb7Kf0",
-  authDomain: "ecoscroll-26741.firebaseapp.com",
-  databaseURL: "https://ecoscroll-26741-default-rtdb.firebaseio.com",
-  projectId: "ecoscroll-26741",
-  storageBucket: "ecoscroll-26741.firebasestorage.app",
-  messagingSenderId: "241271236440",
-  appId: "1:241271236440:web:f7c9db05a09eff219c272d",
-  measurementId: "G-92P746FHL7"
+  apiKey: "YOUR_API_KEY_HERE",  // Replace with your API key
+  authDomain: "your-project-id.firebaseapp.com",  // Replace with your Firebase project's auth domain
+  databaseURL: "https://your-project-id-default-rtdb.firebaseio.com",  // Replace with your Firebase Realtime Database URL
+  projectId: "your-project-id",  // Replace with your Firebase project ID
+  storageBucket: "your-project-id.appspot.com",  // Replace with your Firebase storage bucket
+  messagingSenderId: "your-messaging-sender-id",  // Replace with your Firebase sender ID
+  appId: "your-app-id",  // Replace with your Firebase app ID
+  measurementId: "your-measurement-id"  // Replace with your Firebase measurement ID
 };
+
+
 
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
