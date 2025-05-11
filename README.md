@@ -26,8 +26,6 @@ Built with **Python**, **Java**, **HTML**, and **CSS**, the app is currently in 
 
 ## 🛠 Setup
 
-![Demo Screenshot](assets/image1.png)
-
-![Demo Screenshot](assets/image2.png)
+- **Demo screenshot :**;
 
 ![Demo Screenshot](assets/image3.png)
