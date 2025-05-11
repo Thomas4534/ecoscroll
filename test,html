@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login, Sign Up & Scrolling</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+  <!-- Login and Sign-Up Form -->
+  <div class="container" id="loginFormContainer">
+
+    <button class="styled-button position-2" onclick="window.location.href='56.html';">
+        See the Leaderboard
+    </button>
+
+
+      <h1>Login</h1>
+      <form id="loginForm">
+          <div class="form-group">
+              <label for="loginUsername">Username</label>
+              <input type="text" id="loginUsername" name="username" required>
+          </div>
+          <div class="form-group">
+              <label for="loginPassword">Password</label>
+              <input type="password" id="loginPassword" name="password" required>
+          </div>
+          <button type="submit" class="btn login-btn">Login</button>
+          <button type="button" class="btn signup-btn" id="goToSignup">Sign Up</button>
+      </form>
+      <div class="logo-container">
+          <img src="assets/images/Ecoscroll_text_preserved.png" alt="Ecoscroll Logo" class="logo">
+      </div>
+  </div>
+
+
+
+  <div class="container" id="signupFormContainer" style="display: none;">
+
+      <button class="styled-button position-2" onclick="window.location.href='56.html';">
+        See the Leaderboard
+      </button>
+
+
+      <h1>Sign Up</h1>
+      <form id="signupForm">
+          <div class="form-group">
+              <label for="signupUsername">Username</label>
+              <input type="text" id="signupUsername" name="username" required>
+          </div>
+          <div class="form-group">
+              <label for="signupPassword">Password</label>
+              <input type="password" id="signupPassword" name="password" required>
+          </div>
+          <button type="submit" class="btn signup-btn">Sign Up</button>
+          <button type="button" class="btn login-btn" id="goToLogin">Back to Login</button>
+      </form>
+      <div class="logo-container">
+          <img src="assets/images/Ecoscroll_text_preserved.png" alt="Ecoscroll Logo" class="logo">
+      </div>
+  </div>
+
+
+
+  <!-- TikTok-like Scrolling Container -->
+
+
+<div id="intro-page" class="intro-overlay" style="display: none;">
+    <div class="intro-content">
+        <h1>Welcome to EcoScroll</h1>
+        <p>Stay informed with the latest news and updates.</p>
+        <button id="start-button" class="styled-button2">Enter</button>
+    </div>
+</div>
+
+
+
+
+
+
+  <div class="scrolling-container" id="scrollingApp"></div>
+
+
+  <div id="scrollCount">Scrolled: 0</div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/firebase@9.6.1/firebase-app.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/firebase@9.6.1/firebase-analytics.js" type="module"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-database.js" type="module"></script>
+  <script src="script.js" type="module"></script>
+
+
+
+</body>
+</html>
+
